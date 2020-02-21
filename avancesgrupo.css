@@ -1,0 +1,54 @@
+.boxgrupo{
+    border: 1px solid #c7c7c7;
+    border-radius: 8px 8px 5px 5px;
+    width: 30vw;
+    height: 46vh;
+    margin: 0 auto;
+}
+.titlebox{
+    background-color: #ebebeb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 5px;
+}
+.infobox{
+    padding: 0 10px 10px;
+}
+.topbox{
+    margin-top: 10px !important;
+}
+.imgbox{
+    width: 4vw;
+    margin-left: 20px;
+}
+.profilename{
+    margin-left: 82px;
+    margin-top: -55px;
+    color: #FF4700;
+}
+.profiledate{
+    margin-left: 85px;
+    margin-top: -13px;
+    font-size: 9px;
+}
+.both{
+    clear: both;
+}
+.info{
+    word-wrap: break-word;
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.vermas{
+    color: #FF4700;
+    text-decoration-line: underline;
+    margin-left: 179px;
+}
+.coment{
+    margin-left: 14px;
+}
+.coment1{
+    margin-left: 299px;
+    margin-top: -32px;
+    color: #FF4700;
+}
