@@ -1,0 +1,80 @@
+.administradores{
+    background-color: white;
+  width: 568px;
+  border: 1px solid black;
+  padding: 69px;
+  margin: 27px;
+  height: 454px;
+
+}
+
+.titulo{
+  margin-top: -591px;
+  margin-left: 246px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+.persona img {
+  width: 81px;
+  height: 109px;
+  margin-left: 400px;
+  margin-top: -56px;
+}
+.texto{
+  font-family:'Poppins', sans-serif;
+  margin-left: 495px;
+  font-size: 10px;
+  margin-top: 0px;
+}
+.fecha {
+font-family: 'Poppins', sans-serif;
+margin-left: 411px;
+font-size: 10px;
+}
+
+.titulo1{
+  margin-top: -591px;
+  margin-left: 246px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+.persona1 img {
+  width: 81px;
+  height: 109px;
+  margin-left: 56px;
+  margin-top: -56px;
+}
+.texto1{
+  font-family:'Poppins', sans-serif;
+  margin-left: 151px;
+  font-size: 10px;
+  margin-top: -127px;
+}
+.fecha1{
+font-family: 'Poppins', sans-serif;
+margin-left: 66px;
+font-size: 10px;
+}
+.titulo2{
+  margin-top: -591px;
+  margin-left: 246px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+.persona2 img {
+  width: 81px;
+  height: 109px;
+  margin-left: 56px;
+  margin-top: -56px;
+}
+.texto2{
+  font-family:'Poppins', sans-serif;
+  margin-left: 151px;
+  font-size: 10px;
+  margin-top: 0px;
+}
+.fecha2{
+font-family: 'Poppins', sans-serif;
+margin-left: 66px;
+font-size: 10px;
+}
