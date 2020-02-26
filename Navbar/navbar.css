@@ -1,0 +1,45 @@
+html{
+    font-family: 'Poppins';
+}
+body {
+    margin:auto;
+}
+#navcontainer {
+    display: grid;
+    grid-template-columns: 20% 20% 5% 8% 8% 12% 4% 8% 15%;
+    background-color: rgb(0, 0, 0);
+    height: 4vh;
+    color: white;
+    padding-top: 1vh;
+    font-size: 12px;
+}
+#imagenlogo{
+    height: 3.5vh;
+    float: right;
+}
+#item1{
+    padding-top: 0px;
+}
+#item2{
+    padding-top: 15px;
+    color: orangered;
+    font-size: 10px;
+}
+#item3{
+    padding-top: 4px;
+}
+#item4{
+    padding-top: 4px;
+}
+#item5{
+    padding-top: 4px;
+}
+#item6{
+    padding-top: 4px;
+}
+#item7{
+    padding-top: 4px;
+}
+#item8{
+    padding-top: 4px;
+}
