@@ -90,14 +90,6 @@ body{
     display: block;
     padding: 15px 0;
 }
-
-
-/*.grande {
-    background-color: black;
-    border-radius: 24px 24px 24px 24px;
-    opacity: 0.5;  
-}*/
-
 .headerText {
     text-align: center;
     color: #FF4700;
@@ -118,8 +110,88 @@ body{
     font-weight: bold;
     font-family: 'Poppins';
     margin: 0;
-    padding: 2% 0;
+    padding: 5% 0;
 }
+/*grid proyecto para colaborar*/
+#gridproyecto{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100% ;
+}
+.gridtext{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+}
+.gridfoto{
+    margin-left: 5%;
+    margin-top: 11%;
+    width: 56vh;
+    height: 52vh;
+}
+.h1color{
+    color:#FF4700;
+    font-size: 23px;
+    text-decoration:underline;
+}
+.h2color{
+    color:#FF4700;
+    font-size: 16px;
+    text-decoration:underline;
+}
+.pcolor{
+    color: white;
+    font-size: 16px;
+}
+#margintop{
+    margin-top: 5%;
+}
+.teamers{
+    background: white;
+    color: black; 
+    border: orangered 3px solid;
+    width:  300px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Poppins'; 
+    font-size: 18px; 
+    padding: 12px;
+}
+.cajarecaudacion{
+    background: white;
+    color: black; 
+    border: orangered 3px solid;
+    width:  300px;
+    height: 250px;
+    font-family: 'Poppins';
+    font-size: 13px; 
+    padding: 15px;
+    
+}
+.don1{
+    margin-top: -5%;
+
+    color: red;
+}
+.don2{
+    margin-top: -5%;
+
+    color: green;
+}
+.don3{
+    margin-top: -5%;
+    color:black;
+}
+.link{
+    font-size: 13px; 
+    font-weight: 400; 
+    font-family: 'Poppins';
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
 
 /* Caja Recaudacion*/
 .box{
