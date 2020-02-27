@@ -66,12 +66,12 @@ body{
 
 /* Foto Inicial + Unirse */
 #headerImage {
-    background-image: url("https://i.ibb.co/NSmMXBt/Back-min.jpg");
+    background-image: url("https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/87761384_651947655576133_4524349391766552576_o.jpg?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=k2NiNEr_kH4AX8b15CY&_nc_ht=scontent.fbcn9-1.fna&oh=85c3c43a6548d00bbdd4691ced49cded&oe=5F00B8DD");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 100vh;
     box-shadow: inset 0 -50px 50px -10px #000000;
 }
 
