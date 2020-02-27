@@ -1,0 +1,110 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+#box{
+    background: white;
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+    
+}
+.title{
+    background-color: grey;
+    border:  black 3px solid;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 25px;
+}
+ #container{
+    display: grid;
+    grid-template-columns: 2% 16% 30% 2% 16% 30% 2%;
+    grid-template-rows: 10px 22px 75px 60px 22px 75px 10px ;
+    font-family: 'Poppins';
+    padding:15px;
+    margin-top:0%;
+ }
+
+ .member1{
+    background-image: url(https://fotos.subefotos.com/1561f299589ee239b7d4c73583c996e2o.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 2;
+    width: 100px;
+    height: 100px;
+    }
+.member2{
+    background-image: url(https://fotos.subefotos.com/0aaa450472d31e1757aa0f3996570f27o.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    grid-column: 5;
+    grid-row: 2;
+    width: 100px;
+    height: 100px;
+}
+.member3{
+    background-image: url(https://fotos.subefotos.com/06d65a1e6b0aeafbeedfb2a3a7bf5ac3o.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    grid-column: 2;
+    grid-row: 5;
+    width: 100px;
+    height: 100px;
+} 
+.name1{
+    font-size:18px;
+    grid-column: 3;
+    grid-row: 2;
+}
+.name2{
+    font-size:18px;
+    grid-column: 6;
+    grid-row: 2;
+}
+.name3{
+    font-size:18px;
+    grid-column: 3;
+    grid-row: 5;
+}
+.description1{
+    font-size:13px;
+    grid-column: 3;
+    grid-row: 3;
+}
+.description2{
+    font-size:13px;
+    grid-column: 6;
+    grid-row: 3;
+}
+.description3{
+    font-size:13px;
+    grid-column: 3;
+    grid-row: 6;
+}
+.date1{
+    font-size:10px;
+    grid-column: 2;
+    grid-row: 4;
+}
+.date2{
+    font-size:10px;
+    grid-column: 5;
+    grid-row: 4;
+}
+.date3{
+    font-size:10px;
+    grid-column: 2;
+    grid-row: 7;
+}
+.orange{
+    font-size:13px;
+    color: orangered;
+}
