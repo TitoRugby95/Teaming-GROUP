@@ -1,0 +1,420 @@
+html{
+    font-family: 'Poppins';
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+/* Navbar */
+#navcontainer {
+    display: grid;
+    grid-template-columns: 20% 20% 5% 8% 8% 12% 4% 8% 15%;
+    background-color: rgb(0, 0, 0);
+    height: 4vh;
+    color: white;
+    padding-top: 1vh;
+    font-size: 12px;
+    top: 0px;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#imagenlogo{
+    height: 4vh;
+    float: right;
+    width: 8.5vh;
+}
+
+#item1{
+    padding-top: 0px;
+}
+
+#item2{
+    padding-top: 10px;
+    color: orangered;
+    font-size: 10px;
+}
+
+#item3{
+    padding-top: 4px;
+}
+
+#item4{
+    padding-top: 4px;
+}
+
+#item5{
+    padding-top: 4px;
+}
+
+#item6{
+    padding-top: 4px;
+}
+
+#item7{
+    padding-top: 4px;
+}
+
+#item8{
+    padding-top: 4px;
+}
+
+/* Foto Inicial + Unirse */
+#headerImage {
+    background-image: url("https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/87761384_651947655576133_4524349391766552576_o.jpg?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=k2NiNEr_kH4AX8b15CY&_nc_ht=scontent.fbcn9-1.fna&oh=85c3c43a6548d00bbdd4691ced49cded&oe=5F00B8DD");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0 -50px 50px -10px #000000;
+}
+
+.headerButton {
+    text-align: center;
+    background-color: #FF4700;
+    color: seashell;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border-radius: 7px;
+    border: 3px solid white;
+    cursor: pointer;
+    width: 25vw;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0;
+}
+.headerText {
+    text-align: center;
+    color: #FF4700;
+    font-size: 19px;
+    font-family: 'Poppins';
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.headerTitle {
+    text-align: center;
+    color: white;
+    font-size: 47px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 8% 0;
+}
+/*grid proyecto para colaborar*/
+#gridproyecto{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100% ;
+}
+.gridtext{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+}
+.gridfoto{
+    margin-left: 4%;
+    margin-top: 11%;
+    width: 54vh;
+    padding-left: 3%;
+    height: 49vh;
+    border-radius: 3vh;
+
+}
+.h1color{
+    color:#FF4700;
+    font-size: 23px;
+    text-decoration:underline;
+}
+.h2color{
+    color:#FF4700;
+    font-size: 16px;
+    text-decoration:underline;
+}
+.pcolor{
+    color: white;
+    font-size: 14px;
+}
+#margintop{
+    margin-top: 5%;
+}
+.teamers{
+    background: white;
+    color: black; 
+    border: orangered 3px solid;
+    width:  300px;
+    text-align: center;
+    font-family: 'Poppins'; 
+    font-size: 18px; 
+    padding: 15px;
+}
+.cajarecaudacion{
+    background: white;
+    color: black; 
+    border: orangered 3px solid;
+    width:  300px;
+    height: 243px;
+    font-family: 'Poppins';
+    font-size: 13px; 
+    padding: 15px;
+    
+}
+.don1{
+    margin-top: -5%;
+
+    color: red;
+}
+.don2{
+    margin-top: -5%;
+
+    color: green;
+}
+.don3{
+    margin-top: -5%;
+    color:black;
+}
+.link{
+    font-size: 13px; 
+    font-weight: 400; 
+    font-family: 'Poppins';
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
+
+/* Caja Recaudacion*/
+.box{
+    background: white;
+    color: black; 
+    border: black 1px solid;
+    border-radius: 5px;
+    width:  420px;
+    height: 300px;
+    margin-top: 10vh;
+    margin-left: 2%;
+}
+#line{
+    background: black;
+    height: 1px;
+
+}
+#title{
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 15px;
+}
+#text{
+    font-family: 'Poppins';
+    font-size: 13px;
+    padding: 2vh;
+    margin-top: 0%;
+}
+.info{
+    background:orangered;  
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    color: black; 
+    border: black 1px solid;
+    border-radius: 5px;
+    width:  200px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+/*Teaming manager*/
+#boxmanager{
+    background: white;
+    color: black;
+    border: black 1px solid;
+    border-radius: 3%;
+    width: 57vw;
+    height: 62vh;
+    float: right;
+    margin-right: 5%;
+    margin-top: -23%; 
+}
+.titlemanager{
+    background-color: grey;
+    border:  black 3px solid;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 25px;
+}
+#containermanager{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    font-family: 'Poppins';
+    padding:15px;
+    margin-top:0%;
+    font-size: 12px;
+ }
+
+#fototeaming1{
+    background-image: url(https://fotos.subefotos.com/1561f299589ee239b7d4c73583c996e2o.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 4%;
+    background-position: center;
+}
+#fototeaming2{
+    background-image: url(https://fotos.subefotos.com/0aaa450472d31e1757aa0f3996570f27o.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 4%;
+    background-position: center;
+}
+#fototeaming3{
+    background-image: url(https://fotos.subefotos.com/06d65a1e6b0aeafbeedfb2a3a7bf5ac3o.jpg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 4%;
+    position: relative;
+    background-position: center;
+} 
+#datamanager{
+    clear: both;
+    margin-left: 6%;
+}
+
+.orange{
+    font-size:13px;
+    color: orangered;
+}
+/*avances grupo*/
+
+.boxavances{
+    background: white;
+    color: black;
+    border: black 1px solid;
+    border-radius: 3%;
+    width: 31vw;
+    height: 65vh;
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+#lineavances{
+    background: black;
+    height: 1px;
+
+}
+#imgsolidariosavances{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 9vh;
+    height: 9vh;
+    float: left;
+}
+
+#titsolidavances{
+    float: left;
+    margin-left: 5%;
+    color: orangered;
+}
+
+#horasolidavances{
+    float: left;
+    font-size: 10px;
+    color: rgb(58, 58, 58);
+}
+
+#textsolidavances{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+    clear: left;
+}
+#tituloboxavances{
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+.vermasavances{
+    color: #FF4700;
+    text-decoration-line: underline;
+    margin-left: 179px;
+}
+.comentboxavances{
+    margin-left: 5vh;
+    font-size: 14px;
+    float: left;
+    margin-top: 1%;
+}
+.responboxavances{
+    margin-left: 299px;
+    margin-top: -32px;
+    color: #FF4700;
+}
+
+#textavances{
+    font-size: 14px;
+    padding: 15px;
+}
+
+.botonresponderavances{
+    display: block;
+    margin-top: 0%;
+    border: orangered 1px solid;
+    border-radius: 5px;
+    width: 12vw;
+    height: 5vh;
+    font-size: 15px;
+    float: right;
+    margin-right: 3.5%;
+    color: orangered;
+    background-color: white;
+}
+#pieavances{
+    margin-top: 8%;
+}
+/*footer*/
+#gridpie{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    background-color: rgb(71, 71, 71);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 10px;
+    font-family: 'Poppins';
+    line-height: 35px;
+    margin-top: 5%;
+}
+
+.lineapie{
+    background: white;
+    height: 1px;
+    width: 70%;
+}
+
