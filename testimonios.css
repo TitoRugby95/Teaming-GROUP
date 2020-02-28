@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+
+.boxtestimonios{
+    background: white;
+    color: black; 
+    border: black 1px solid;
+    border-radius: 5px;
+    width:  420px;
+    height: 340px;
+}
+#linetestimonios{
+    background: black;
+    height: 1px;
+
+}
+#imgsolidariostestimonios{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 9vh;
+    height: 9vh;
+    float: left;
+}
+
+#titsolidtestimonios{
+    float: left;
+    margin-left: 5%;
+    color: orangered;
+}
+
+#horasolidtestimonios{
+    float: left;
+    font-size: 10px;
+    color: rgb(58, 58, 58);
+}
+
+#textsolidtestimonios{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+    clear: left;
+}
+#tituloboxtestimonios{
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+.buttontestimonios{
+    display: block;
+    font-size: 15px;
+    color: orange;
+    background-color: white;
+    border: white;
+    float: right;
+    margin-top: 0%;
+    margin-right: 34%;
+}
+.comentboxtestimonios{
+    margin-left: 14px;
+    font-size: 14px;
+    float: left;
+    margin-top: 14%;
+}
+.responboxtestimonios{
+    margin-left: 299px;
+    margin-top: -32px;
+    color: #FF4700;
+}
+
+#texttestimonios{
+    font-size: 14px;
+    padding: 15px;
+}
+
+.botonrespondertestimonios{
+    display: block;
+    border: orangered 1px solid;
+    border-radius: 5px;
+    width: 10vw;
+    height: 5vh;
+    font-size: 14px;
+    float: right;
+    margin-right: 3.5vh;
+    color: orangered;
+    background-color: white;
+    margin-top: 5%;
+}
+#pietestimonios{
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
